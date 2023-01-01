@@ -14,6 +14,7 @@
 		9B35467829600B2D00F1C694 /* DescentRR.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9B35467629600B2D00F1C694 /* DescentRR.xcdatamodeld */; };
 		9B35467A29600B2D00F1C694 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B35467929600B2D00F1C694 /* Assets.xcassets */; };
 		9B35467D29600B2D00F1C694 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B35467B29600B2D00F1C694 /* LaunchScreen.storyboard */; };
+		9B35468529600B7D00F1C694 /* playVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B35468429600B7D00F1C694 /* playVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		9B35467929600B2D00F1C694 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B35467C29600B2D00F1C694 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B35467E29600B2D00F1C694 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B35468429600B7D00F1C694 /* playVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				9B35466D29600B2D00F1C694 /* AppDelegate.swift */,
 				9B35466F29600B2D00F1C694 /* SceneDelegate.swift */,
 				9B35467129600B2D00F1C694 /* ViewController.swift */,
+				9B35468429600B7D00F1C694 /* playVC.swift */,
 				9B35467329600B2D00F1C694 /* Main.storyboard */,
 				9B35467929600B2D00F1C694 /* Assets.xcassets */,
 				9B35467B29600B2D00F1C694 /* LaunchScreen.storyboard */,
@@ -143,6 +146,7 @@
 			files = (
 				9B35467829600B2D00F1C694 /* DescentRR.xcdatamodeld in Sources */,
 				9B35467229600B2D00F1C694 /* ViewController.swift in Sources */,
+				9B35468529600B7D00F1C694 /* playVC.swift in Sources */,
 				9B35466E29600B2D00F1C694 /* AppDelegate.swift in Sources */,
 				9B35467029600B2D00F1C694 /* SceneDelegate.swift in Sources */,
 			);
