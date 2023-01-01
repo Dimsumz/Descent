@@ -45,6 +45,8 @@ class playVC: UIViewController {
         setList()
     }
     
+    
+    
     func setList() {
         rightCounter = 0
         array1 = ["", "", "", "", "", "", "", "", ""]
