@@ -69,24 +69,6 @@
                                     <segue destination="e1a-IQ-sKt" kind="presentation" id="LLn-Yc-Ulj"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="APY-MI-o7R">
-                                <rect key="frame" x="242" y="725" width="135" height="37"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="135" id="32K-BY-U78"/>
-                                    <constraint firstAttribute="height" constant="37" id="rNY-0P-9W1"/>
-                                </constraints>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="info"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                        <integer key="value" value="10"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="clipsToBounds" value="YES"/>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <segue destination="MaI-ED-fLk" kind="presentation" id="wss-oa-hCN"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -100,11 +82,8 @@
                             <constraint firstItem="kya-lN-vrF" firstAttribute="top" secondItem="f5g-C7-wjX" secondAttribute="bottom" constant="50" id="OBB-29-lBf"/>
                             <constraint firstItem="LdL-Rz-8HE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="64" id="TCN-CY-lfF"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="LdL-Rz-8HE" secondAttribute="trailing" constant="64" id="buN-dl-AiY"/>
-                            <constraint firstItem="APY-MI-o7R" firstAttribute="top" secondItem="kya-lN-vrF" secondAttribute="bottom" constant="180" id="dG6-gC-ASs"/>
-                            <constraint firstItem="APY-MI-o7R" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" symbolic="YES" id="iM7-CN-BSR"/>
                             <constraint firstItem="f5g-C7-wjX" firstAttribute="top" secondItem="LdL-Rz-8HE" secondAttribute="bottom" constant="160" id="iVZ-hA-7NR"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kya-lN-vrF" secondAttribute="trailing" constant="32" id="kti-zP-2pS"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="APY-MI-o7R" secondAttribute="trailing" constant="16" id="oiF-jd-Cmo"/>
                             <constraint firstAttribute="bottom" secondItem="3Y9-VO-8sP" secondAttribute="bottom" constant="-118" id="t4x-0m-A4s"/>
                             <constraint firstItem="LdL-Rz-8HE" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="110" id="zCt-12-npp"/>
                         </constraints>
@@ -173,7 +152,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fnA-l3-baE">
-                                <rect key="frame" x="8" y="372" width="121" height="108"/>
+                                <rect key="frame" x="8" y="372" width="120" height="108"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="121" id="ZF2-T9-QFB"/>
                                     <constraint firstAttribute="height" constant="108" id="rSO-uo-JuH"/>
@@ -203,7 +182,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6h2-Rm-Bbr">
-                                <rect key="frame" x="137" y="372" width="120" height="109"/>
+                                <rect key="frame" x="136" y="372" width="121" height="109"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="121" id="HLL-Ss-tPY"/>
                                     <constraint firstAttribute="height" constant="109" id="aAq-qC-QX0"/>
@@ -217,7 +196,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lRf-tI-nxc">
-                                <rect key="frame" x="8" y="488" width="121" height="108"/>
+                                <rect key="frame" x="8" y="488" width="120" height="108"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="121" id="3iw-Ea-Hhb"/>
                                     <constraint firstAttribute="height" constant="108" id="Ogc-dL-EtR"/>
@@ -247,7 +226,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WAk-2g-Dkm">
-                                <rect key="frame" x="137" y="489" width="120" height="109"/>
+                                <rect key="frame" x="136" y="489" width="121" height="109"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="109" id="GV9-EH-bSE"/>
                                     <constraint firstAttribute="width" constant="121" id="kKB-FQ-A3a"/>
@@ -376,53 +355,6 @@
             <point key="canvasLocation" x="809.92366412213732" y="3.5211267605633805"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="Laz-IU-pZM">
-            <objects>
-                <viewController storyboardIdentifier="infoScreen" id="MaI-ED-fLk" customClass="ViewController" customModule="DescentRR" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="wZ3-HG-5s9">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="backgroundGradient" translatesAutoresizingMaskIntoConstraints="NO" id="LTg-ab-IpP">
-                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="HL1-le-7FM">
-                                <rect key="frame" x="64" y="82" width="264" height="51"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <accessibility key="accessibilityConfiguration">
-                                    <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
-                                </accessibility>
-                                <attributedString key="attributedText">
-                                    <fragment content="DESCENT">
-                                        <attributes>
-                                            <color key="NSColor" red="1" green="0.42979738008263668" blue="0.27943231256520473" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                            <font key="NSFont" size="48" name="Arial-Black"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <color key="highlightedColor" systemColor="labelColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qdS-eC-EJM">
-                                <rect key="frame" x="58" y="691" width="276" height="58"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Back"/>
-                                <connections>
-                                    <action selector="buttonDismiss:" destination="MaI-ED-fLk" eventType="touchUpInside" id="WVs-yh-z8W"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="6n4-YA-E7O"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="4Uh-lQ-pfK" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="810" y="785"/>
-        </scene>
-        <!--View Controller-->
         <scene sceneID="NQq-9h-b0J">
             <objects>
                 <viewController storyboardIdentifier="tutorialScreen" id="e1a-IQ-sKt" customClass="ViewController" customModule="DescentRR" customModuleProvider="target" sceneMemberID="viewController">
@@ -523,13 +455,14 @@
                                     <segue destination="jih-KZ-HB4" kind="unwind" unwindAction="unwind:" id="drj-Aa-Gdp"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6oq-5K-dYN">
-                                <rect key="frame" x="130" y="395" width="133" height="57.333333333333314"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6oq-5K-dYN">
+                                <rect key="frame" x="130" y="398" width="133" height="57.333333333333314"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Win">
                                         <attributes>
+                                            <color key="NSColor" red="1" green="0.40000003579999999" blue="0.098039209840000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <font key="NSFont" metaFont="system" size="48"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
@@ -598,8 +531,9 @@
                                 <attributedString key="attributedText">
                                     <fragment content="Lose">
                                         <attributes>
+                                            <color key="NSColor" red="1" green="0.40000003579999999" blue="0.1019607931" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <font key="NSFont" metaFont="system" size="48"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
@@ -629,7 +563,7 @@
     </scenes>
     <color key="tintColor" red="0.92941176889999999" green="0.42352938649999999" blue="0.27450981740000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
     <resources>
-        <image name="backgroundGradient" width="1920" height="1080"/>
+        <image name="backgroundGradient" width="640" height="360"/>
         <systemColor name="labelColor">
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
